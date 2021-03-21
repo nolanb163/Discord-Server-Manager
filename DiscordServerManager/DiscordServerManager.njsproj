@@ -32,6 +32,9 @@
     <Content Include="Commands.json">
       <SubType>Code</SubType>
     </Content>
+    <Content Include="config.json">
+      <SubType>Code</SubType>
+    </Content>
     <Content Include="package.json" />
     <Content Include="README.md" />
   </ItemGroup>
