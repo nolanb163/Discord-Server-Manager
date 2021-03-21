@@ -1,0 +1,9 @@
+{
+  "name": "discord-server-manager",
+  "version": "0.0.0",
+  "description": "DiscordServerManager",
+  "main": "app.js",
+  "author": {
+    "name": ""
+  }
+}
