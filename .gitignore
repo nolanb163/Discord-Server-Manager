@@ -3,16 +3,14 @@
 ##
 ## Get latest from https://github.com/github/gitignore/blob/master/VisualStudio.gitignore
 
-
-config.json
-commands.json
-
 # User-specific files
 *.rsuser
 *.suo
 *.user
 *.userosscache
 *.sln.docstates
+DiscordServerManager/config.json
+DiscordServerManager/Commands.json
 
 # User-specific files (MonoDevelop/Xamarin Studio)
 *.userprefs
@@ -364,3 +362,4 @@ MigrationBackup/
 
 # Fody - auto-generated XML schema
 FodyWeavers.xsd
+
