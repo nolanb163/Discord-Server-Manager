@@ -1,7 +1,14 @@
 {
-  "valheim": {
-    "filepath": "D:\\Steam\\steamapps\\common\\Valheim dedicated server\\start_headless_server.bat",
-    "url": "192.168.1.1:2456"
-  }
-
+  "games": [
+    {
+      "name": "valheim",
+      "startup": "\"D:\\Steam\\steamapps\\common\\Valheim dedicated server\\start_headless_server.bat\"",
+      "url": "192.168.1.1:2456"
+    },
+    {
+      "name": "minecraft",
+      "startup": "\"D:\\Steam\\steamapps\\common\\Valheim dedicated server\\valheim_server\" -nographics -batchmode -name \"My server\" -port 2456 -world \"Dedicated\" -password \"Gamer\" -public 1",
+      "url": "192.168.1.1:2456"
+    }
+  ]
 }
